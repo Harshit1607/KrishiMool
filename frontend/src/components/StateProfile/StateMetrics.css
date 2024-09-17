@@ -1,0 +1,15 @@
+.state-metrics {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.metric {
+  width: 30%;
+  height: 12px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 4px;
+}
