@@ -5,6 +5,9 @@ const initialState = {
     { name: 'Assam' },
     { name: 'Odisha' },
     { name: 'Haryana' },
+    { name: 'Assam' },
+    { name: 'Odisha' },
+    { name: 'Haryana' },
   ],
 };
 

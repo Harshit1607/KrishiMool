@@ -6,6 +6,10 @@ const initialState = {
     { name: 'TOMATO', price: '₹30/kg', change: '11.28%' },
     { name: 'TOOR', price: '₹59/kg', change: '11.28%' },
     { name: 'MOONG', price: '₹87/kg', change: '11.28%' },
+    { name: 'ONION', price: '₹40/kg', change: '11.28%' },
+    { name: 'TOMATO', price: '₹30/kg', change: '11.28%' },
+    { name: 'TOOR', price: '₹59/kg', change: '11.28%' },
+    { name: 'MOONG', price: '₹87/kg', change: '11.28%' },
   ]
 };
 

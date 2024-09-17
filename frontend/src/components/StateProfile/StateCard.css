@@ -1,8 +1,8 @@
 .state-card {
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 20px;
-  width: 250px;
+  padding: 10px;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -5,6 +5,7 @@ import HotzonesMap from './HotzonesMap';
 import './Dashboard.css';
 import Graph from './Graph';
 import Trend from './Trend';
+import Carousel from '../../Utils/Carousel';
 
 const Dashboard = () => {
   const {commodities} = useSelector(state=>state.dashboard)
@@ -20,9 +21,12 @@ const Dashboard = () => {
           <input placeholder='Search Commodity' />
         </div>
         <div className="commodity-trend">
-          {commodities.map((commodity) => (
-            <CommodityCard key={commodity.name} data={commodity} />
-          ))}
+          <Carousel length={4}>
+            {commodities.map((commodity) => (
+                <CommodityCard key={commodity.name} data={commodity} />
+              ))}
+          </Carousel>
+
         </div>
         <div className="chart-placeholder">
           <div className="chart-placeholder-left">
